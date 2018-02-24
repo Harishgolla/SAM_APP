@@ -354,7 +354,7 @@ http.listen(theApp.port, function(){
     console.log('listening on *:'+theApp.port);
 });
 
-console.log('Server started! At http://'+theApp.ip+':' + theApp.port);
+console.log('Server started! At '+theApp.protocol +":"+theApp.ip+':' + theApp.port);
 
 
 
