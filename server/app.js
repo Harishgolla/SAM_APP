@@ -5,7 +5,7 @@ var config = {
     sessionExpiresTime:1000 * 600, //(micro seconds * seconds) = minutes
     port:process.env.PORT || 8080,
     protocol :"https",
-    ip:"localhost",
+    ip:"lakalakalaka.herokuapp.com",
     mongoDBConnection:"mongodb://SAM_App:Lakalakalaka1!@cluster0-shard-00-00-wtplf.mongodb.net:27017,cluster0-shard-00-01-wtplf.mongodb.net:27017,cluster0-shard-00-02-wtplf.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin",
     //mongoDBConnection:"mongodb://Samapp:lakalakalaka@ds239128.mlab.com:39128/sam_app",//"mongodb://localhost:27017/Ticketing",
     fcmServerKey:"AAAA41C0U6s:APA91bHdRWhXhNcFKmxM_jYTigjxF4A82XOak3Bt8lIpaKeEFqqoqN1Qjkr8Vxkg3sI8vpMoj70l1OrcXzQKXpRxb9EYEtA3V7Q9MgLHBcUmmS-O6VDaa6jXKd1qEDwJvi4CvcpSSscb",
