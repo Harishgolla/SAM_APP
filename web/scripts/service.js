@@ -5,7 +5,7 @@ var Tracking = Tracking || {};
 Tracking.service = {};
 
 Tracking.service.Xhr = function() {
-    var _url = 'http://lakalakalaka.herokuapp.com';
+    var _url = 'https://lakalakalaka.herokuapp.com';
 
     var _updateURL = function(url){
         return _url+url;
