@@ -16,8 +16,9 @@ module.exports = {
     };
     //res.status(400);
     //res.view('400', {message: 'Sorry, you need to tell us the ID of the FOO you want!'});
+    console.log("errpr")
     console.log(req.body);
-    res.ok(data);
+    res.serverError("harish error");
   },
   putData: function (req, res) {
     var data = {
