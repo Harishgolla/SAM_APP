@@ -41,6 +41,10 @@ process.chdir(__dirname);
   var rc;
   try {
     rc = require('rc');
+    require('apminsight')({
+licenseKey : 'us_dcbb881591ab0c8aba83b1df16e7eb50',
+appName : 'SampleApp',
+port : 8001})
   } catch (e0) {
     try {
       rc = require('sails/node_modules/rc');
